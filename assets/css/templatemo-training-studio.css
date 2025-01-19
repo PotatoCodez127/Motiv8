@@ -342,12 +342,14 @@ header
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: var(--prim)!important;
+  /* color: var(--for); */
   opacity: 1;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
   color: var(--prim)!important;
+  /* color: var(--for); */
   opacity: 1;
 }
 
@@ -435,6 +437,7 @@ header
 .header-area .main-nav .menu-trigger.active span:before,
 .header-area .main-nav .menu-trigger.active span:after {
   background-color: transparent;
+  /* color: var(--for); */
   width: 100%;
 }
 
@@ -472,6 +475,7 @@ header
 
 .header-area.header-sticky .nav li a.active {
   color: var(--prim);
+  /* color: var(--for); */
 }
 
 @media (max-width: 1200px) {
@@ -491,6 +495,7 @@ header
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
     color: var(--prim)!important;
+    /* color: var(--for); */
     opacity: 1;
   }
   .header-area {
@@ -739,6 +744,7 @@ subscribe
   background-image: url(../images/cta-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   text-align: center;
 }
@@ -828,6 +834,7 @@ Our Classes
 }
 #tabs ul .ui-tabs-active a {
   color: var(--prim);
+  /* color: var(--for); */
 }
 #tabs ul .ui-tabs-active span {
   color: #1e1e1e;
@@ -946,6 +953,8 @@ schedule
 #schedule .filters ul li.active,
 #schedule .filters ul li:hover {
   color: var(--prim);
+/* color: var(--thir); */
+
 }
 #schedule .filters-content {
   margin-top: 50px;
